@@ -1,5 +1,5 @@
-#ifndef DARRAY_H_INCLUDED
-#define DARRAY_H_INCLUDED
+#ifndef DYNAMIC_ARRAY_H_INCLUDED
+#define DYNAMIC_ARRAY_H_INCLUDED
 
 #include <stddef.h>
 
