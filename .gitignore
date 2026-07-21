@@ -1,0 +1,14 @@
+*.o
+*/*.o
+
+*.out
+*.exe
+gc_app
+
+*.cbp
+*.depend
+bin/
+obj/
+
+.vscode/
+.DS_Store
