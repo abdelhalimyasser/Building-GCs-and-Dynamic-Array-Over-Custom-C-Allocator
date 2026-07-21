@@ -43,7 +43,7 @@ flowchart TD
 | ---------------------------- | ---------------------------------- | --------------------------------- |
 | Allocator allocation         | $O(n)$ scan                      | First-fit free-list search.       |
 | Allocator free               | $O(n)$                           | Coalescing may walk the list.     |
-| Dynamic array push / enqueue | Amortized$O(1)$                  | Resize is occasional.             |
+| Dynamic array push / enqueue | Amortized $O(1)$                  | Resize is occasional.             |
 | Dynamic array pop / dequeue  | $O(1)$                           | No shifting.                      |
 | Reference counting release   | $O(1)$ typical, $O(n)$ cascade | Depends on graph depth.           |
 | Mark-sweep GC                | $O(R + N)$                       | Roots plus all allocated objects. |
